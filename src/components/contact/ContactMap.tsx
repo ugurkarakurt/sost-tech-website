@@ -1,6 +1,6 @@
 export default function ContactMap() {
-  const lat = 41.106937;  // Latitude
-  const lng = 29.016836;  // Longitude
+  const lat = 40.899801;  // Latitude
+  const lng = 29.189471;  // Longitude
   const address = 'Maslak, Büyükdere Caddesi No:123, 34485 Sarıyer/İstanbul';
   const phone = '+90 (212) 123 45 67';
   const email = 'info@sosttech.com';

@@ -50,7 +50,7 @@ export function IntroSection() {
           align="center"
           sx={{ mb: 6 }}
         >
-          SOST Technology
+          {t('title')}
         </Typography>
         <Typography
           variant="body1"

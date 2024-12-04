@@ -44,6 +44,7 @@ const resources = {
       intro: {
         text: 'SOST Teknoloji, SAP danışmanlık hizmetlerinde 10 yılı aşkın deneyimiyle, işletmelerin dijital dönüşümünü hızlandırmalarına yardımcı olmaktadır. Verimliliği artırarak, rekabet avantajı elde etmenizi sağlıyoruz.'
       },
+      title: "SOST Teknoloji ve Bilişim Hizmetleri Anonim Şirketi",
       features: {
         1: {
           title: "SAP Uzmanlığı",
@@ -94,6 +95,7 @@ const resources = {
       intro: {
         text: 'With over 10 years of experience in SAP consulting services, SOST Technology helps businesses accelerate their digital transformation. We enable you to gain competitive advantage by increasing efficiency.'
       },
+      title: "SOST Technology and Information Services Joint Stock Company",
       features: {
         1: {
           title: "SAP Expertise",
