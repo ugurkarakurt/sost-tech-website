@@ -96,7 +96,7 @@ export function ServicesOverview() {
                     {service.features.map((feature, index) => (
                       <ListItem key={index}>
                         <ListItemIcon>
-                          <CheckCircleIcon color="primary" />
+                          <CheckCircleIcon color="success" />
                         </ListItemIcon>
                         <ListItemText
                           primary={t(`services.${service.id}.features.${index}`)}

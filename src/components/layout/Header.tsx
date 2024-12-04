@@ -21,21 +21,23 @@ import {
 } from '@mui/material';
 import {
   Menu as MenuIcon,
+  Brightness4 as Brightness4Icon,
+  Brightness7 as Brightness7Icon,
 } from '@mui/icons-material';
 import PublicIcon from '@mui/icons-material/Public';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-// import { ColorModeContext } from '../ThemeRegistry/ThemeRegistry';
+import { ColorModeContext } from '../ThemeRegistry/ThemeRegistry';
 import { navigationItems, languages } from '@/types/navigation';
-// import { useTheme } from '@mui/material/styles';
+import { useTheme } from '@mui/material/styles';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
 
 export function Header() {
   const pathname = usePathname();
-  // const theme = useTheme();
+  const theme = useTheme();
   const { t, i18n } = useTranslation('common');
-  // const colorMode = React.useContext(ColorModeContext);
+  const colorMode = React.useContext(ColorModeContext);
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [languageAnchor, setLanguageAnchor] = React.useState<null | HTMLElement>(null);
 
@@ -70,7 +72,11 @@ export function Header() {
               display: { xs: 'none', md: 'flex' },
             }}
           >
-            <Image width={100} height={70} src={"/images/logo.svg"} alt={''} />
+            {theme.palette.mode === 'dark' ? (
+              <Image width={100} height={70} src={"/images/logo-dark.svg"} alt={''} />
+            ) : (
+              <Image width={100} height={70} src={"/images/logo.svg"} alt={''} />
+            )}
           </Typography>
 
           {/* Mobile menu button */}
@@ -124,7 +130,7 @@ export function Header() {
 
           {/* Theme & Language Controls */}
           <Box sx={{ flexGrow: 0 }}>
-            {/* <IconButton
+            <IconButton
               onClick={colorMode.toggleColorMode}
               color="inherit"
               aria-label={t('theme.toggle')}
@@ -134,7 +140,7 @@ export function Header() {
               ) : (
                 <Brightness4Icon />
               )}
-            </IconButton> */}
+            </IconButton>
             <IconButton
               onClick={handleLanguageMenu}
               color="inherit"

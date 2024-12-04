@@ -60,7 +60,7 @@ export function ReferenceCard({ referenceKey }: ReferenceCardProps) {
           />
           <Chip
             label={t(`references.${referenceKey}.projectType`)}
-            color="secondary"
+            color="primary"
             variant="outlined"
           />
         </Box>
@@ -77,7 +77,7 @@ export function ReferenceCard({ referenceKey }: ReferenceCardProps) {
             {Array.isArray(results) && results.map((result, index) => (
               <ListItem key={`result-${index}`}>
                 <ListItemIcon>
-                  <CheckIcon color="primary" />
+                  <CheckIcon color="success" />
                 </ListItemIcon>
                 <ListItemText primary={result} />
               </ListItem>

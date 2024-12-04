@@ -57,7 +57,7 @@ export function SolutionCard({ solutionKey }: SolutionCardProps) {
             {Array.isArray(features) && features.map((feature, index) => (
               <ListItem key={`feature-${index}`}>
                 <ListItemIcon>
-                  <CheckIcon color="primary" />
+                  <CheckIcon color="success" />
                 </ListItemIcon>
                 <ListItemText primary={feature} />
               </ListItem>
@@ -75,7 +75,7 @@ export function SolutionCard({ solutionKey }: SolutionCardProps) {
             {Array.isArray(benefits) && benefits.map((benefit, index) => (
               <ListItem key={`benefit-${index}`}>
                 <ListItemIcon>
-                  <StarIcon color="secondary" />
+                  <StarIcon color="primary" />
                 </ListItemIcon>
                 <ListItemText primary={benefit} />
               </ListItem>
