@@ -48,7 +48,7 @@ const resources = {
     home: {
       hero: {
         title: 'İşletmelerinizi Dijital Dönüşümle Geleceğe Taşıyoruz',
-        subtitle: 'SAP Danışmanlık Hizmetlerinde Uzmanlık ve Yenilikçi Çözümler',
+        subtitle: 'SAP Danışmanlık Hizmetlerinde Uzman ve Yenilikçi Çözümler',
         cta: 'Hizmetlerimizi Keşfedin'
       },
       intro: {
@@ -99,7 +99,7 @@ const resources = {
     home: {
       hero: {
         title: 'Transforming Your Business for the Digital Future',
-        subtitle: 'Expertise and Innovative Solutions in SAP Consulting Services',
+        subtitle: 'Expert and Innovative Solutions in SAP Consulting Services',
         cta: 'Discover Our Services'
       },
       intro: {
