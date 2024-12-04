@@ -37,19 +37,14 @@
     "subtitle": "SAP konusunda deneyimli profesyonellerden oluşan ekibimiz",
     "members": {
       "ceo": {
-        "name": "Ahmet Yılmaz",
-        "position": "CEO",
-        "description": "15+ yıl SAP danışmanlığı deneyimi"
+        "name": "Sercan TURA",
+        "position": "Yönetici Ortak",
+        "description": "SAP SD Danışmanı"
       },
       "cto": {
-        "name": "Mehmet Kaya",
-        "position": "CTO",
-        "description": "SAP teknik mimari uzmanı"
-      },
-      "consultant": {
-        "name": "Ayşe Demir",
-        "position": "Kıdemli SAP Danışmanı",
-        "description": "SAP S/4HANA uzmanı"
+        "name": "Sercan Özer",
+        "position": "Yönetici Ortak",
+        "description": "SAP ABAP Geliştiricisi"
       }
     }
   }

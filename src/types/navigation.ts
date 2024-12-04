@@ -14,7 +14,7 @@ export const navigationItems: NavItem[] = [
   { title: 'Hakkımızda', path: '/about' },
   { title: 'Çözümlerimiz', path: '/solutions' },
   { title: 'İletişim', path: '/contact' },
-  { title: 'Referanslar', path: '/references' },
+  // { title: 'Referanslar', path: '/references' },
 ];
 
 export const languages: Language[] = [

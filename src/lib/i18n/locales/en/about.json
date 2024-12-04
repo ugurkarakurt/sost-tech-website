@@ -37,19 +37,14 @@
     "subtitle": "Our team of experienced professionals in SAP",
     "members": {
       "ceo": {
-        "name": "Ahmet Yilmaz",
-        "position": "CEO",
-        "description": "15+ years of SAP consulting experience"
+        "name": "Sercan TURA",
+        "position": "Managing Partner",
+        "description": "SAP SD Consultant"
       },
       "cto": {
-        "name": "Mehmet Kaya",
-        "position": "CTO",
-        "description": "SAP technical architecture expert"
-      },
-      "consultant": {
-        "name": "Ayse Demir",
-        "position": "Senior SAP Consultant",
-        "description": "SAP S/4HANA specialist"
+        "name": "Sercan Özer",
+        "position": "Managing Partner",
+        "description": "SAP ABAP Developer"
       }
     }
   }

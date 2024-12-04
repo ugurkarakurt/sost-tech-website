@@ -30,7 +30,7 @@ const StyledAvatar = styled(Avatar)(({ theme }) => ({
   border: `4px solid ${theme.palette.primary.main}`,
 }));
 
-const teamMembers = ['ceo', 'cto', 'consultant'];
+const teamMembers = ['ceo', 'cto'];
 
 export function TeamSection() {
   const { t } = useTranslation('about');
@@ -58,12 +58,12 @@ export function TeamSection() {
 
         <Grid container spacing={4}>
           {teamMembers.map((member) => (
-            <Grid item xs={12} md={4} key={member}>
+            <Grid item xs={12} md={6} key={member}>
               <TeamCard>
                 <CardContent sx={{ textAlign: 'center' }}>
                   <StyledAvatar
                     alt={t(`team.members.${member}.name`)}
-                    src={`/images/team/${member}.jpg`}
+                    src={`/images/team/${member}.jpeg`}
                   />
                   <Typography variant="h5" gutterBottom>
                     {t(`team.members.${member}.name`)}
