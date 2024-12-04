@@ -1,0 +1,46 @@
+{
+  "title": "Our SAP Consulting Services",
+  "subtitle": "Transforming Your Business for the Digital Future",
+  "services": {
+    "sap-consulting": {
+      "title": "SAP Consulting",
+      "description": "Strengthen your business with SAP solutions and consulting services.",
+      "features": {
+        "0": "SAP S/4HANA Implementation",
+        "1": "System Optimization",
+        "2": "Performance Enhancement",
+        "3": "Technical Consulting"
+      }
+    },
+    "sap-training": {
+      "title": "SAP Training",
+      "description": "Increase your team's productivity with in-depth SAP software training.",
+      "features": {
+        "0": "User Training",
+        "1": "Technical Training",
+        "2": "Customized Workshops",
+        "3": "Certification Preparation"
+      }
+    },
+    "digital-transformation": {
+      "title": "Digital Transformation Consulting",
+      "description": "Accelerate your transformation by integrating technology into business processes.",
+      "features": {
+        "0": "Digital Strategy Development",
+        "1": "Process Optimization",
+        "2": "Change Management",
+        "3": "Innovation Consulting"
+      }
+    },
+    "sap-support": {
+      "title": "SAP Application Support",
+      "description": "We provide continuous support to manage and optimize your company's SAP system.",
+      "features": {
+        "0": "24/7 Technical Support",
+        "1": "Proactive Monitoring",
+        "2": "Problem Resolution",
+        "3": "Periodic Maintenance"
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "hero": {
+    "title": "Customized SAP Solutions",
+    "subtitle": "Strengthen Your Digital Transformation with Solutions Tailored to Your Needs"
+  },
+  "labels": {
+    "features": "Features",
+    "benefits": "Benefits"
+  },
+  "solutions": {
+    "erp": {
+      "title": "ERP Solutions",
+      "subtitle": "Efficient Enterprise Resource Management",
+      "description": "Manage all your business processes in an integrated way with SAP S/4HANA.",
+      "features": [
+        "Centralized data management",
+        "Real-time reporting",
+        "Process optimization",
+        "Advanced analytics capabilities"
+      ],
+      "benefits": {
+        "title": "Benefits",
+        "items": [
+          "Increased operational efficiency",
+          "Improved decision-making processes",
+          "Cost reduction",
+          "Business process standardization"
+        ]
+      }
+    },
+    "finance": {
+      "title": "Finance and Accounting Modules",
+      "subtitle": "Optimize Your Financial Processes with SAP",
+      "description": "Manage your financial processes end-to-end with SAP Finance.",
+      "features": [
+        "Automated financial transactions",
+        "Advanced budget management",
+        "Treasury operations",
+        "Financial consolidation"
+      ],
+      "benefits": {
+        "title": "Benefits",
+        "items": [
+          "Reduced financial closing times",
+          "Cash flow optimization",
+          "Improved risk management",
+          "Compliance and audit efficiency"
+        ]
+      }
+    },
+    "hr": {
+      "title": "Human Resources Modules",
+      "subtitle": "Manage Your Human Resources with SAP",
+      "description": "Digitize your HR processes with SAP SuccessFactors.",
+      "features": [
+        "Personnel management",
+        "Talent management",
+        "Performance evaluation",
+        "Training management"
+      ],
+      "benefits": {
+        "title": "Benefits",
+        "items": [
+          "Enhanced employee experience",
+          "HR process efficiency",
+          "Talent pool optimization",
+          "Strategic HR planning"
+        ]
+      }
+    },
+    "logistics": {
+      "title": "Logistics and Supply Chain Solutions",
+      "subtitle": "Optimize Your Supply Chain with SAP",
+      "description": "Perfect your supply chain processes with SAP's logistics solutions.",
+      "features": [
+        "Inventory management",
+        "Warehouse management",
+        "Supply chain planning",
+        "Transportation management"
+      ],
+      "benefits": {
+        "title": "Benefits",
+        "items": [
+          "Inventory optimization",
+          "Improved delivery times",
+          "Reduced supply costs",
+          "End-to-end visibility"
+        ]
+      }
+    }
+  }
+}

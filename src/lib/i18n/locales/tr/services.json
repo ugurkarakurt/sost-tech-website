@@ -1,0 +1,46 @@
+{
+  "title": "SAP Danışmanlık Hizmetlerimiz",
+  "subtitle": "İşletmenizi Dijital Dönüşümle Geleceğe Taşıyoruz",
+  "services": {
+    "sap-consulting": {
+      "title": "SAP Danışmanlık",
+      "description": "SAP çözümleri ve danışmanlık hizmetleri ile işletmenizi güçlendirin.",
+      "features": {
+        "0": "SAP S/4HANA Implementasyonu",
+        "1": "Sistem Optimizasyonu",
+        "2": "Performans İyileştirme",
+        "3": "Teknik Danışmanlık"
+      }
+    },
+    "sap-training": {
+      "title": "SAP Eğitim",
+      "description": "SAP yazılımlarında derinlemesine eğitimlerle, ekibinizin verimliliğini artırın.",
+      "features": {
+        "0": "Kullanıcı Eğitimleri",
+        "1": "Teknik Eğitimler",
+        "2": "Özelleştirilmiş Workshoplar",
+        "3": "Sertifikasyon Hazırlık"
+      }
+    },
+    "digital-transformation": {
+      "title": "Dijital Dönüşüm Danışmanlığı",
+      "description": "Teknolojiyi iş süreçlerine entegre ederek dönüşümünüzü hızlandırın.",
+      "features": {
+        "0": "Dijital Strateji Geliştirme",
+        "1": "Süreç Optimizasyonu",
+        "2": "Değişim Yönetimi",
+        "3": "İnovasyon Danışmanlığı"
+      }
+    },
+    "sap-support": {
+      "title": "SAP Uygulama Desteği",
+      "description": "İşletmenizin SAP sistemini yönetmek ve optimize etmek için sürekli destek sağlıyoruz.",
+      "features": {
+        "0": "7/24 Teknik Destek",
+        "1": "Proaktif İzleme",
+        "2": "Problem Çözümü",
+        "3": "Periyodik Bakım"
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "title": "About SOST Technology",
+    "subtitle": "An Innovative and Dynamic Technology Company"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "At SOST Technology, we help businesses accelerate their digital transformation processes, increase their efficiency with SAP solutions, and gain competitive advantage in their industry."
+  },
+  "vision": {
+    "title": "Vision and Values",
+    "description": "To achieve sustainable success by providing the best consulting experience to our customers while integrating technology into business processes.",
+    "values": {
+      "title": "Our Core Values",
+      "items": {
+        "innovation": {
+          "title": "Innovation",
+          "description": "Focus on continuous innovation and development"
+        },
+        "quality": {
+          "title": "Quality",
+          "description": "Service delivery at the highest standards"
+        },
+        "integrity": {
+          "title": "Integrity",
+          "description": "Transparent and reliable business relationships"
+        },
+        "expertise": {
+          "title": "Expertise",
+          "description": "Deep industry knowledge and technical competence"
+        }
+      }
+    }
+  },
+  "team": {
+    "title": "Our Expert Team",
+    "subtitle": "Our team of experienced professionals in SAP",
+    "members": {
+      "ceo": {
+        "name": "Ahmet Yilmaz",
+        "position": "CEO",
+        "description": "15+ years of SAP consulting experience"
+      },
+      "cto": {
+        "name": "Mehmet Kaya",
+        "position": "CTO",
+        "description": "SAP technical architecture expert"
+      },
+      "consultant": {
+        "name": "Ayse Demir",
+        "position": "Senior SAP Consultant",
+        "description": "SAP S/4HANA specialist"
+      }
+    }
+  }
+}

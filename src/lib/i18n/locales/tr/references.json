@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "title": "Başarı Hikayelerimiz",
+    "subtitle": "Müşterilerimizin Başarı Hikayeleriyle Güçleniyoruz"
+  },
+  "references": {
+    "enterprise1": {
+      "name": "ABC Holding",
+      "industry": "Üretim",
+      "projectType": "SAP S/4HANA Dönüşümü",
+      "description": "Türkiye'nin önde gelen üretim şirketlerinden biri için gerçekleştirdiğimiz kapsamlı SAP S/4HANA dönüşüm projesi, operasyonel verimliliği %30 artırdı.",
+      "results": [
+        "6 ay içinde başarılı go-live",
+        "Operasyonel maliyetlerde %25 azalma",
+        "Raporlama süreçlerinde %40 hızlanma",
+        "Tam sistem entegrasyonu"
+      ],
+      "testimonial": {
+        "text": "SOST Technology ile gerçekleştirdiğimiz SAP dönüşüm projesi, şirketimizin dijital altyapısını tamamen yeniledi. Profesyonel yaklaşımları ve uzman kadroları ile süreç boyunca yanımızda oldular.",
+        "author": "Mehmet Yıldız",
+        "position": "CIO"
+      }
+    },
+    "enterprise2": {
+      "name": "XYZ Grup",
+      "industry": "Perakende",
+      "projectType": "SAP Retail Implementasyonu",
+      "description": "500'den fazla mağazası bulunan ulusal perakende zinciri için gerçekleştirdiğimiz SAP Retail projesi ile end-to-end dijital dönüşüm.",
+      "results": [
+        "Stok yönetiminde %35 iyileşme",
+        "Tedarik zinciri optimizasyonu",
+        "Gerçek zamanlı raporlama",
+        "Merkezi yönetim sistemi"
+      ],
+      "testimonial": {
+        "text": "SOST Technology ekibi, karmaşık perakende operasyonlarımızı başarıyla dijital ortama taşıdı. Teknik uzmanlıkları ve sektör bilgileri ile fark yarattılar.",
+        "author": "Ayşe Kara",
+        "position": "Operasyon Direktörü"
+      }
+    }
+  }
+}

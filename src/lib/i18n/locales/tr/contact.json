@@ -1,0 +1,49 @@
+{
+  "title": "Bizimle İletişime Geçin",
+  "subtitle": "Size Yardımcı Olmaktan Memnuniyet Duyarız!",
+  "form": {
+    "title":"İletişim Formu",
+    "name": {
+      "label": "Adınız Soyadınız",
+      "placeholder": "Adınızı ve soyadınızı giriniz",
+      "error": "Ad soyad alanı zorunludur"
+    },
+    "email": {
+      "label": "E-posta Adresiniz",
+      "placeholder": "E-posta adresinizi giriniz",
+      "error": "Geçerli bir e-posta adresi giriniz"
+    },
+    "phone": {
+      "label": "Telefon Numaranız",
+      "placeholder": "Telefon numaranızı giriniz",
+      "error": "Geçerli bir telefon numarası giriniz"
+    },
+    "message": {
+      "label": "Mesajınız",
+      "placeholder": "Mesajınızı buraya yazınız",
+      "error": "Mesaj alanı zorunludur"
+    },
+    "submit": "Mesaj Gönder",
+    "success": "Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.",
+    "error": "Mesajınız gönderilirken bir hata oluştu. Lütfen tekrar deneyiniz."
+  },
+  "contact": {
+    "title": "İletişim Bilgilerimiz",
+    "address": {
+      "title": "Adres",
+      "value": "Maslak, Büyükdere Caddesi No:123, 34485 Sarıyer/İstanbul"
+    },
+    "phone": {
+      "title": "Telefon",
+      "value": "+90 (212) 123 45 67"
+    },
+    "email": {
+      "title": "E-posta",
+      "value": "info@sosttech.com"
+    },
+    "workHours": {
+      "title": "Çalışma Saatleri",
+      "value": "Pazartesi - Cuma: 09:00 - 18:00"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "hero": {
+    "title": "Özelleştirilmiş SAP Çözümleri",
+    "subtitle": "İhtiyacınıza Uygun Çözümlerle Dijital Dönüşümünüzü Güçlendirin"
+  },
+  "labels": {
+    "features": "Özellikler",
+    "benefits": "Faydalar"
+  },
+  "solutions": {
+    "erp": {
+      "title": "ERP Çözümleri",
+      "subtitle": "İşletme Kaynaklarını Etkin Yönetim",
+      "description": "SAP S/4HANA ile işletmenizin tüm süreçlerini entegre bir şekilde yönetin.",
+      "features": [
+        "Merkezi veri yönetimi",
+        "Gerçek zamanlı raporlama",
+        "Süreç optimizasyonu",
+        "Gelişmiş analitik yetenekler"
+      ],
+      "benefits": {
+        "title": "Faydalar",
+        "items": [
+          "Operasyonel verimlilikte artış",
+          "Karar verme süreçlerinde iyileşme",
+          "Maliyetlerde azalma",
+          "İş süreçlerinde standardizasyon"
+        ]
+      }
+    },
+    "finance": {
+      "title": "Finans ve Muhasebe Modülleri",
+      "subtitle": "Finansal Süreçlerinizi SAP ile Optimize Edin",
+      "description": "SAP Finance ile finansal süreçlerinizi uçtan uca yönetin.",
+      "features": [
+        "Otomatik finans işlemleri",
+        "Gelişmiş bütçe yönetimi",
+        "Hazine operasyonları",
+        "Finansal konsolidasyon"
+      ],
+      "benefits": {
+        "title": "Faydalar",
+        "items": [
+          "Finansal kapanış sürelerinde kısalma",
+          "Nakit akışı optimizasyonu",
+          "Risk yönetiminde iyileşme",
+          "Uyumluluk ve denetim kolaylığı"
+        ]
+      }
+    },
+    "hr": {
+      "title": "İnsan Kaynakları Modülleri",
+      "subtitle": "İnsan Kaynaklarınızı SAP ile Yönetin",
+      "description": "SAP SuccessFactors ile İK süreçlerinizi dijitalleştirin.",
+      "features": [
+        "Personel yönetimi",
+        "Yetenek yönetimi",
+        "Performans değerlendirme",
+        "Eğitim yönetimi"
+      ],
+      "benefits": {
+        "title": "Faydalar",
+        "items": [
+          "Çalışan deneyiminde artış",
+          "İK süreçlerinde verimlilik",
+          "Yetenek havuzu optimizasyonu",
+          "Stratejik İK planlaması"
+        ]
+      }
+    },
+    "logistics": {
+      "title": "Lojistik ve Tedarik Zinciri Çözümleri",
+      "subtitle": "Tedarik Zincirinizi SAP ile Optimize Edin",
+      "description": "SAP'nin lojistik çözümleriyle tedarik zinciri süreçlerinizi mükemmelleştirin.",
+      "features": [
+        "Stok yönetimi",
+        "Depo yönetimi",
+        "Tedarik zinciri planlaması",
+        "Nakliye yönetimi"
+      ],
+      "benefits": {
+        "title": "Faydalar",
+        "items": [
+          "Stok optimizasyonu",
+          "Teslimat sürelerinde iyileşme",
+          "Tedarik maliyetlerinde azalma",
+          "End-to-end görünürlük"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "title": "Our Success Stories",
+    "subtitle": "Growing Stronger with Our Clients' Success Stories"
+  },
+  "references": {
+    "enterprise1": {
+      "name": "ABC Holding",
+      "industry": "Manufacturing",
+      "projectType": "SAP S/4HANA Transformation",
+      "description": "A comprehensive SAP S/4HANA transformation project for one of Turkey's leading manufacturing companies, increasing operational efficiency by 30%.",
+      "results": [
+        "Successful go-live within 6 months",
+        "25% reduction in operational costs",
+        "40% faster reporting processes",
+        "Complete system integration"
+      ],
+      "testimonial": {
+        "text": "The SAP transformation project with SOST Technology completely renewed our company's digital infrastructure. They stood by us throughout the process with their professional approach and expert staff.",
+        "author": "Mehmet Yildiz",
+        "position": "CIO"
+      }
+    },
+    "enterprise2": {
+      "name": "XYZ Group",
+      "industry": "Retail",
+      "projectType": "SAP Retail Implementation",
+      "description": "End-to-end digital transformation with SAP Retail project for a national retail chain with over 500 stores.",
+      "results": [
+        "35% improvement in inventory management",
+        "Supply chain optimization",
+        "Real-time reporting",
+        "Centralized management system"
+      ],
+      "testimonial": {
+        "text": "SOST Technology team successfully digitized our complex retail operations. They made a difference with their technical expertise and industry knowledge.",
+        "author": "Ayse Kara",
+        "position": "Operations Director"
+      }
+    }
+  }
+}

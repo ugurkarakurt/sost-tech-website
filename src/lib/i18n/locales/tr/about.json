@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "title": "SOST Teknoloji Hakkında",
+    "subtitle": "Yenilikçi ve Dinamik Bir Teknoloji Firması"
+  },
+  "mission": {
+    "title": "Misyonumuz",
+    "description": "SOST Teknoloji olarak, işletmelerin dijital dönüşüm süreçlerini hızlandırmalarına, SAP çözümleri ile verimliliklerini artırmalarına ve sektördeki rekabet avantajını elde etmelerine yardımcı oluyoruz."
+  },
+  "vision": {
+    "title": "Vizyon ve Değerlerimiz",
+    "description": "Müşterilerimize en iyi danışmanlık deneyimini sunarken, teknolojiyi iş süreçlerine entegre ederek sürdürülebilir başarı sağlamak.",
+    "values": {
+      "title": "Temel Değerlerimiz",
+      "items": {
+        "innovation": {
+          "title": "İnovasyon",
+          "description": "Sürekli yenilik ve gelişim odaklı çalışma"
+        },
+        "quality": {
+          "title": "Kalite",
+          "description": "En yüksek standartlarda hizmet sunumu"
+        },
+        "integrity": {
+          "title": "Dürüstlük",
+          "description": "Şeffaf ve güvenilir iş ilişkileri"
+        },
+        "expertise": {
+          "title": "Uzmanlık",
+          "description": "Derin sektör bilgisi ve teknik yetkinlik"
+        }
+      }
+    }
+  },
+  "team": {
+    "title": "Uzman Ekibimiz",
+    "subtitle": "SAP konusunda deneyimli profesyonellerden oluşan ekibimiz",
+    "members": {
+      "ceo": {
+        "name": "Ahmet Yılmaz",
+        "position": "CEO",
+        "description": "15+ yıl SAP danışmanlığı deneyimi"
+      },
+      "cto": {
+        "name": "Mehmet Kaya",
+        "position": "CTO",
+        "description": "SAP teknik mimari uzmanı"
+      },
+      "consultant": {
+        "name": "Ayşe Demir",
+        "position": "Kıdemli SAP Danışmanı",
+        "description": "SAP S/4HANA uzmanı"
+      }
+    }
+  }
+}
