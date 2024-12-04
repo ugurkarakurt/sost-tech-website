@@ -103,7 +103,7 @@ export function Header() {
           </Typography>
 
           {/* Desktop Navigation */}
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: "flex-end" } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: "flex-start" } }}>
             {navigationItems.map((item) => (
               <Button
                 key={item.path}
