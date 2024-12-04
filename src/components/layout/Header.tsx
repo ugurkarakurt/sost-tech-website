@@ -21,10 +21,8 @@ import {
 } from '@mui/material';
 import {
   Menu as MenuIcon,
-  // Brightness4 as Brightness4Icon,
-  // Brightness7 as Brightness7Icon,
-  Language as LanguageIcon,
 } from '@mui/icons-material';
+import PublicIcon from '@mui/icons-material/Public';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 // import { ColorModeContext } from '../ThemeRegistry/ThemeRegistry';
@@ -142,7 +140,7 @@ export function Header() {
               color="inherit"
               aria-label={t('language.select')}
             >
-              <LanguageIcon />
+              <PublicIcon />
             </IconButton>
             <Menu
               anchorEl={languageAnchor}
@@ -154,6 +152,7 @@ export function Header() {
                   key={lang.code}
                   onClick={() => handleLanguageChange(lang.code)}
                   selected={i18n.language === lang.code}
+                  sx={{ fontSize: 14, px: 4 }}
                 >
                   {t(`languages.${lang.code}`)}
                 </MenuItem>
