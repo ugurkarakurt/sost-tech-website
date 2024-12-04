@@ -61,15 +61,15 @@ export function ContactForm() {
     setLoading(true);
     try {
       await emailjs.send(
-        'YOUR_SERVICE_ID', // EmailJS'den alınacak
-        'YOUR_TEMPLATE_ID', // EmailJS'den alınacak
+        'service_rgl359q', // EmailJS'den alınacak
+        'template_irxawzx', // EmailJS'den alınacak
         {
           from_name: formData.name,
           reply_to: formData.email,
           phone_number: formData.phone,
           message: formData.message,
         },
-        'YOUR_PUBLIC_KEY' // EmailJS'den alınacak
+        '5MERvv-7Gn1q2Exq5' // EmailJS'den alınacak
       );
 
       setSubmitStatus('success');
