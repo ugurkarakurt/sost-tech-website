@@ -17,8 +17,9 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://sost.com.tr'),
-  title: 'SOST Technology',
-  description: 'SAP Danışmanlık Hizmetlerinde Uzmanlık ve Yenilikçi Çözümler',
+  title: 'SOST Technology | SAP Danışmanlık ve Dijital Dönüşüm Çözümleri',
+  description: 'SAP danışmanlık hizmetlerinde 10+ yıl deneyim ile işletmelerin dijital dönüşüm süreçlerini hızlandırıyoruz. ERP, finansal çözümler ve teknoloji danışmanlığı.',
+  keywords: 'SAP danışmanlık, ERP çözümleri, dijital dönüşüm, teknoloji danışmanlığı, SOST Technology',
   verification: {
     google: '1BJvBgdaX6NjZ5mXgoB42aQ1_VI3P-RorXuT6hIcCgU',
   },
