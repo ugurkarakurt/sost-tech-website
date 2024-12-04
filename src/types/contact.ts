@@ -25,8 +25,8 @@ export interface ContactInfo {
 export const COMPANY_CONTACT: ContactInfo = {
   lat: 41.106937,
   lng: 29.016836,
-  address: 'Maslak, Büyükdere Caddesi No:123, 34485 Sarıyer/İstanbul',
-  phone: '+90 (212) 123 45 67',
+  address: 'KARLIKTEPE MAH. BLOKEVLERİ SK. NO: 4 B İÇ KAPI NO: 132 KARTAL/ İSTANBUL',
+  phone: '-',
   email: 'info@sosttech.com',
   workHours: 'Pazartesi - Cuma: 09:00 - 18:00'
 };

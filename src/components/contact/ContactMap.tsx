@@ -1,8 +1,8 @@
 export default function ContactMap() {
   const lat = 40.899801;  // Latitude
   const lng = 29.189471;  // Longitude
-  const address = 'Maslak, Büyükdere Caddesi No:123, 34485 Sarıyer/İstanbul';
-  const phone = '+90 (212) 123 45 67';
+  const address = 'KARLIKTEPE MAH. BLOKEVLERİ SK. NO: 4 B İÇ KAPI NO: 132 KARTAL/ İSTANBUL';
+  const phone = '-';
   const email = 'info@sosttech.com';
   const workHours = 'Pazartesi - Cuma: 09:00 - 18:00';
 
