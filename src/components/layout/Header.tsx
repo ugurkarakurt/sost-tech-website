@@ -32,6 +32,8 @@ import { navigationItems, languages } from '@/types/navigation';
 import { useTheme } from '@mui/material/styles';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
+import Cookies from 'js-cookie';
+const LANGUAGE_COOKIE_NAME = 'sost-language-preference';
 
 export function Header() {
   const pathname = usePathname();
@@ -41,21 +43,29 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [languageAnchor, setLanguageAnchor] = React.useState<null | HTMLElement>(null);
 
+  const handleLanguageChange = async (langCode: string) => {
+    await i18n.changeLanguage(langCode);
+    Cookies.set(LANGUAGE_COOKIE_NAME, langCode, { expires: 365 });
+    setLanguageAnchor(null);
+  };
+
   const handleDrawerToggle = () => setMobileOpen(!mobileOpen);
 
   const handleLanguageMenu = (event: React.MouseEvent<HTMLElement>) => {
     setLanguageAnchor(event.currentTarget);
   };
 
-  const handleLanguageChange = async (langCode: string) => {
-    await i18n.changeLanguage(langCode);
-    setLanguageAnchor(null);
-  };
-
   const getNavigationTitle = (path: string) => {
     const key = path === '/' ? 'home' : path.slice(1);
     return t(`navigation.${key}`);
   };
+
+  React.useEffect(() => {
+    const currentLang = Cookies.get(LANGUAGE_COOKIE_NAME);
+    if (currentLang) {
+      i18n.changeLanguage(currentLang);
+    }
+  }, []);
 
   return (
     <AppBar position="sticky" color="inherit">
@@ -158,7 +168,12 @@ export function Header() {
                   key={lang.code}
                   onClick={() => handleLanguageChange(lang.code)}
                   selected={i18n.language === lang.code}
-                  sx={{ fontSize: 14, px: 4 }}
+                  sx={{
+                    fontSize: 14,
+                    px: 4,
+                    backgroundColor: i18n.language === lang.code ?
+                      theme.palette.action.selected : 'transparent'
+                  }}
                 >
                   {t(`languages.${lang.code}`)}
                 </MenuItem>

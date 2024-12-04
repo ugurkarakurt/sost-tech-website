@@ -9,6 +9,19 @@ import { PaletteMode, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { getTheme } from '@/lib/theme';
 import { ColorModeContextType } from '@/types/theme';
+import Cookies from 'js-cookie';
+
+const THEME_COOKIE_NAME = 'sost-theme-preference';
+
+function getInitialTheme(): PaletteMode {
+  if (typeof window !== 'undefined') {
+    const storedTheme = Cookies.get(THEME_COOKIE_NAME);
+    if (storedTheme && (storedTheme === 'light' || storedTheme === 'dark')) {
+      return storedTheme;
+    }
+  }
+  return 'light';
+}
 
 export const ColorModeContext = React.createContext<ColorModeContextType>({
   toggleColorMode: () => { },
@@ -20,17 +33,28 @@ interface ThemeRegistryProps {
 }
 
 export function ThemeRegistry({ children }: ThemeRegistryProps) {
-  const [mode, setMode] = React.useState<PaletteMode>('light');
+  const [mode, setMode] = React.useState<PaletteMode>(getInitialTheme);
 
   const colorMode = React.useMemo(
     () => ({
       toggleColorMode: () => {
-        setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
+        setMode((prevMode) => {
+          const newMode = prevMode === 'light' ? 'dark' : 'light';
+          Cookies.set(THEME_COOKIE_NAME, newMode, { expires: 365 });
+          return newMode;
+        });
       },
       mode,
     }),
     [mode]
   );
+
+  React.useEffect(() => {
+    const storedTheme = Cookies.get(THEME_COOKIE_NAME);
+    if (storedTheme && (storedTheme === 'light' || storedTheme === 'dark')) {
+      setMode(storedTheme);
+    }
+  }, []);
 
   const theme = React.useMemo(() => getTheme(mode), [mode]);
 

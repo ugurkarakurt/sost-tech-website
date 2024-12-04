@@ -2,6 +2,7 @@
 'use client';
 
 import i18n from 'i18next';
+import Cookies from 'js-cookie';
 import { initReactI18next } from 'react-i18next';
 import services_tr from './locales/tr/services.json';
 import services_en from './locales/en/services.json';
@@ -13,6 +14,15 @@ import solutions_tr from './locales/tr/solutions.json';
 import solutions_en from './locales/en/solutions.json';
 import references_tr from './locales/tr/references.json';
 import references_en from './locales/en/references.json';
+
+const LANGUAGE_COOKIE_NAME = 'sost-language-preference';
+
+const getInitialLanguage = () => {
+  if (typeof window !== 'undefined') {
+    return Cookies.get(LANGUAGE_COOKIE_NAME) || 'tr';
+  }
+  return 'tr';
+};
 
 const resources = {
   tr: {
@@ -127,7 +137,7 @@ if (!isInitialized) {
     .use(initReactI18next)
     .init({
       resources,
-      lng: typeof window !== 'undefined' ? localStorage.getItem('i18nextLng') || 'tr' : 'tr',
+      lng: getInitialLanguage(),
       fallbackLng: 'tr',
       defaultNS: 'common',
       ns: ['common', 'home', 'services', 'contact'],
