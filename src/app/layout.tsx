@@ -16,8 +16,12 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://sost.com.tr'),
   title: 'SOST Technology',
   description: 'SAP Danışmanlık Hizmetlerinde Uzmanlık ve Yenilikçi Çözümler',
+  verification: {
+    google: '1BJvBgdaX6NjZ5mXgoB42aQ1_VI3P-RorXuT6hIcCgU',
+  },
 };
 
 export default function RootLayout({
