@@ -27,6 +27,6 @@ export const COMPANY_CONTACT: ContactInfo = {
   lng: 29.016836,
   address: 'KARLIKTEPE MAH. BLOKEVLERİ SK. NO: 4 B İÇ KAPI NO: 132 KARTAL/ İSTANBUL',
   phone: '-',
-  email: 'info@sosttech.com',
+  email: 'info@sost.com.tr',
   workHours: 'Pazartesi - Cuma: 09:00 - 18:00'
 };
