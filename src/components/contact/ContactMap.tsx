@@ -18,7 +18,7 @@ export default function ContactMap() {
   return (
     <iframe
       width="100%"
-      height="400"
+      height="200"
       style={{ border: "none" }}
       src={iframeSrc}
       title="OpenStreetMap"

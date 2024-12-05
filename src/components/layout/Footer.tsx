@@ -19,6 +19,7 @@ import {
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
+import ContactMap from '../contact/ContactMap';
 
 const quickLinks = [
   { key: 'services', path: '/services' },
@@ -62,7 +63,7 @@ export function Footer() {
         <Container maxWidth="lg">
           <Grid container spacing={6}>
             {/* Logo ve Açıklama */}
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={3}>
               <Box sx={{ mb: 3 }}>
                 {theme.palette.mode === 'dark' ? (
                   <Image width={120} height={80} src="/images/logo-dark.svg" alt="SOST" />
@@ -104,7 +105,7 @@ export function Footer() {
             </Grid>
 
             {/* Hızlı Linkler */}
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={3}>
               <Typography sx={{ mb: 3, fontWeight: 600, color: 'text.primary' }}>
                 {t('footer.quickLinks')}
               </Typography>
@@ -134,7 +135,7 @@ export function Footer() {
             </Grid>
 
             {/* İletişim */}
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={3}>
               <Typography sx={{ mb: 3, fontWeight: 600, color: 'text.primary' }}>
                 {t('footer.contact')}
               </Typography>
@@ -152,6 +153,9 @@ export function Footer() {
                   </Typography>
                 </Box>
               </Stack>
+            </Grid>
+            <Grid item xs={12} md={3}>
+              <ContactMap />
             </Grid>
           </Grid>
         </Container>
