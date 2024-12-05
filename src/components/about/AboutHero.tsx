@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { styled } from '@mui/material/styles';
 
 const HeroSection = styled(Box)(({ theme }) => ({
-  background: theme.palette.primary.main,
+  background: `linear-gradient(45deg, ${theme.palette.primary.dark} 0%, ${theme.palette.primary.main} 100%)`,
   color: theme.palette.primary.contrastText,
   padding: theme.spacing(12, 0),
   position: 'relative',
@@ -25,6 +25,8 @@ const HeroSection = styled(Box)(({ theme }) => ({
 const Content = styled(Container)(() => ({
   position: 'relative',
   zIndex: 2,
+  textAlign: 'center',
+  minHeight: 170
 }));
 
 export function AboutHero() {

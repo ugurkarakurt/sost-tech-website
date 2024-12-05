@@ -26,6 +26,7 @@ const Content = styled(Container)(() => ({
   position: 'relative',
   zIndex: 2,
   textAlign: 'center',
+  minHeight: 170
 }));
 
 export function SolutionsHero() {
