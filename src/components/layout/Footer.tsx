@@ -105,7 +105,7 @@ export function Footer() {
 
             {/* Hızlı Linkler */}
             <Grid item xs={12} md={4}>
-              <Typography variant="h6" sx={{ mb: 3, fontWeight: 600, color: 'text.primary' }}>
+              <Typography sx={{ mb: 3, fontWeight: 600, color: 'text.primary' }}>
                 {t('footer.quickLinks')}
               </Typography>
               <Stack spacing={2}>
@@ -135,7 +135,7 @@ export function Footer() {
 
             {/* İletişim */}
             <Grid item xs={12} md={4}>
-              <Typography variant="h6" sx={{ mb: 3, fontWeight: 600, color: 'text.primary' }}>
+              <Typography sx={{ mb: 3, fontWeight: 600, color: 'text.primary' }}>
                 {t('footer.contact')}
               </Typography>
               <Stack spacing={2}>

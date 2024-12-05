@@ -46,7 +46,7 @@ const resources = {
       },
       footer: {
         "quickLinks": "Hızlı Linkler",
-        "followUs": "Bizi Takip Edin",
+        "contact": "İletişim",
         "allRights": "Tüm hakları saklıdır."
       }
     },
@@ -102,7 +102,7 @@ const resources = {
       },
       footer: {
         "quickLinks": "Quick Links",
-        "followUs": "Follow Us",
+        "contact": "Contact",
         "allRights": "All rights reserved."
       }
     },
