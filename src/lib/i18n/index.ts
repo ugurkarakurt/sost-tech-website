@@ -43,6 +43,11 @@ const resources = {
       theme: {
         light: 'Aydınlık Tema',
         dark: 'Karanlık Tema'
+      },
+      footer: {
+        "quickLinks": "Hızlı Linkler",
+        "followUs": "Bizi Takip Edin",
+        "allRights": "Tüm hakları saklıdır."
       }
     },
     home: {
@@ -94,6 +99,11 @@ const resources = {
       theme: {
         light: 'Light Theme',
         dark: 'Dark Theme'
+      },
+      footer: {
+        "quickLinks": "Quick Links",
+        "followUs": "Follow Us",
+        "allRights": "All rights reserved."
       }
     },
     home: {

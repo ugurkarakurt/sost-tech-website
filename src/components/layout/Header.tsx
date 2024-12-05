@@ -83,9 +83,9 @@ export function Header() {
             }}
           >
             {theme.palette.mode === 'dark' ? (
-              <Image width={100} height={70} src={"/images/logo-dark.svg"} alt={''} />
+              <Image width={100} height={70} src={"/images/logo-dark.svg"} alt={'Sost Technology Logo'} />
             ) : (
-              <Image width={100} height={70} src={"/images/logo.svg"} alt={''} />
+              <Image width={100} height={70} src={"/images/logo.svg"} alt={'Sost Technology Logo'} />
             )}
           </Typography>
 

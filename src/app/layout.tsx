@@ -3,6 +3,7 @@ import { AppProviders } from '@/components/providers/AppProviders';
 import { Metadata } from 'next';
 import localFont from "next/font/local";
 import "./globals.css";
+import { Footer } from '@/components/layout/Footer';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,7 +34,12 @@ export default function RootLayout({
   return (
     <html lang="tr" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
-        <AppProviders>{children}</AppProviders>
+        <AppProviders>
+          <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+            {children}
+            <Footer />
+          </div>
+        </AppProviders>
       </body>
     </html>
   );
